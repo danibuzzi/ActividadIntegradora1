@@ -1,4 +1,4 @@
-# declaracion de una lista para almacenar los numeros
+# Declaracion de una lista para almacenar los numeros
 numeros=[]
 
 #Ingreso de los numeros en la lista 
@@ -29,10 +29,10 @@ for i in range(5):
 
 
 
-# Mostramos la suma, el promerdio ,el maximo y el minimo
+# Mostramos la suma, el promedio ,el maximo y el minimo
 # de los numeros de la lista
 
-#print("La suma de los numeros es ",str(Suma(numeros)))
-#print("El promedio de los numeros es ",str(Promedio(numeros)))
-#print("El mayor  de los numeros es ",str(Maximo(numeros)))
-#print("El menor de los numeros es ",str(Minimo(numeros)))
+print("La suma de los numeros es ",str(Suma(numeros)))
+print("El promedio de los numeros es ",str(Promedio(numeros)))
+print("El mayor  de los numeros es ",str(Maximo(numeros)))
+print("El menor de los numeros es ",str(Minimo(numeros)))
