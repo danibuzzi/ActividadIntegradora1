@@ -49,3 +49,4 @@ print("La suma de los numeros es ",str(Suma(numeros)))
 print("El promedio de los numeros es ",str(Promedio(numeros)))
 print("El mayor  de los numeros es ",str(Maximo(numeros)))
 print("El menor de los numeros es ",str(Minimo(numeros)))
+
