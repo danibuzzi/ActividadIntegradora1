@@ -44,7 +44,7 @@ def sumar_lista(lista):
 # Mostramos la suma, el promedio ,el maximo y el minimo
 # de los numeros de la lista
 
-print(sumar_lista(numeros));
+print("la suma de los numeros es",str(sumar_lista(numeros)));
 
 print("La suma de los numeros es ",str(Suma(numeros)))
 print("El promedio de los numeros es ",str(Promedio(numeros)))
