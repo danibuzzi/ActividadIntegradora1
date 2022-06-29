@@ -26,9 +26,8 @@ def sumar_lista(lista):
     for numero in lista:
         suma += numero
         
-        return suma
- numeros = [1,2,3,4,5];
-print(sumar_lista(numeros));
+        return suma;
+
 
 
 
@@ -44,6 +43,8 @@ print(sumar_lista(numeros));
 
 # Mostramos la suma, el promedio ,el maximo y el minimo
 # de los numeros de la lista
+
+print(sumar_lista(numeros));
 
 print("La suma de los numeros es ",str(Suma(numeros)))
 print("El promedio de los numeros es ",str(Promedio(numeros)))
