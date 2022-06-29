@@ -2,7 +2,7 @@
 numeros=[]
 
 #Ingreso de los numeros en la lista 
-
+'''
 for i in range(5):
 
     try:
@@ -17,18 +17,18 @@ for i in range(5):
 
         num=int(input("Error de formato, por favor ingrese un numero entero "))
       
-     
+'''
 
 #Suma de los numeros
 def sumar_lista(lista):
     suma = 0
     
-    for numero in lista:
+    for  numero in lista:
         suma += numero
         
-        return suma
- numeros = [1,2,3,4,5];
-print(sumar_lista(numeros));
+    return suma
+
+
 
 
 
@@ -45,7 +45,7 @@ print(sumar_lista(numeros));
 # Mostramos la suma, el promedio ,el maximo y el minimo
 # de los numeros de la lista
 
-print("La suma de los numeros es ",str(Suma(numeros)))
-print("El promedio de los numeros es ",str(Promedio(numeros)))
-print("El mayor  de los numeros es ",str(Maximo(numeros)))
-print("El menor de los numeros es ",str(Minimo(numeros)))
+print("La suma de los numeros es ",str(sumar_lista(numeros)))
+#print("El promedio de los numeros es ",str(promedio_lista(numeros)))
+#print("El mayor  de los numeros es ",str(maximo_lista(numeros)))
+#print("El menor de los numeros es ",str(minimo_lista(numeros)))
