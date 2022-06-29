@@ -2,7 +2,7 @@
 numeros=[]
 
 #Ingreso de los numeros en la lista 
-'''
+
 for i in range(5):
 
     try:
@@ -17,7 +17,7 @@ for i in range(5):
 
         num=int(input("Error de formato, por favor ingrese un numero entero "))
       
-'''
+
 
 #Suma de los numeros
 def sumar_lista(lista):
