@@ -25,7 +25,10 @@ for i in range(5):
 #Calculo del promedio
    
 
-#encontrando el maximo  de los numeros  
+#Encontrando el maximo  de los numeros  
+
+
+#Encontrando el minimo  de los numeros  
 
 
 
