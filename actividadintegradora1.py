@@ -1,7 +1,7 @@
 # declaracion de una lista para almacenar los numeros
 numeros=[]
 
-#Carga de los numeros en la lista 
+#Ingreso de los numeros en la lista 
 
 for i in range(5):
 
