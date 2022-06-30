@@ -1,24 +1,24 @@
 # Declaracion de una lista para almacenar los numeros
 numeros=[]
 
-#Ingreso de los numeros en la lista 
+# Contador para la cantidad de numeros de la lista
+contar_numeros = 0
 
-for i in range(5):
+'''Bucle while para ingreso de los numeros en la lista, 
+se ejecuta hasta que se ingresaron 5 numeros'''
 
+while contar_numeros<5:
     try:
+        
         num=int(input("Ingrese un numero entero "))
-        #agregamos el numero a la lista  
+        #agregamos el numero a la lista 
         numeros.append(num)
-
-    # si el valor ingresado no es un numero entero capturamos
-    # la excepcion y solicitamos un nuevo ingreso de valor
-       
+        # incremente del contador de numeros ingresados
+        contar_numeros += 1
     except Exception:
-
-        num=int(input("Error de formato, por favor ingrese un numero entero "))
-        numeros.append(num)
-
-
+            print("Error de formato") 
+        
+         
 #Suma de los numeros
 def sumar_lista(lista):
     suma = 0
