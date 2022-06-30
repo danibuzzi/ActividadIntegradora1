@@ -16,7 +16,7 @@ for i in range(5):
     except Exception:
 
         num=int(input("Error de formato, por favor ingrese un numero entero "))
-      
+        numeros.append(num)
 
 
 #Suma de los numeros
@@ -45,7 +45,7 @@ def sumar_lista(lista):
 # Mostramos la suma, el promedio ,el maximo y el minimo
 # de los numeros de la lista
 
-print("La suma de los numeros es ",str(sumar_lista(numeros)))
-#print("El promedio de los numeros es ",str(promedio_lista(numeros)))
-#print("El mayor  de los numeros es ",str(maximo_lista(numeros)))
-#print("El menor de los numeros es ",str(minimo_lista(numeros)))
+print("La suma de los numeros es ",sumar_lista(numeros))
+#print("El promedio de los numeros es ",promedio_lista(numeros))
+#print("El mayor  de los numeros es ",maximo_lista(numeros))
+#print("El menor de los numeros es ",minimo_lista(numeros))
