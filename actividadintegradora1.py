@@ -40,6 +40,19 @@ def sumar_lista(lista):
 
 #Encontrando el minimo  de los numeros  
 
+def minimo_lista(numeros):
+    # inicialmente el minimo sera el primer numero de la lista
+
+    minimo=numeros[0]
+    #Seguimos recorriendo la lista  a partir del segundo valor
+
+    for i in range(1,len(numeros)):
+        # si el valor de la lista es memor que el minimo ,
+        # asignamos este valor a minimo
+         
+        if(numeros[i]< minimo):
+	        minimo=numeros[i]	
+    return minimo
 
 
 # Mostramos la suma, el promedio ,el maximo y el minimo
@@ -48,4 +61,4 @@ def sumar_lista(lista):
 print("La suma de los numeros es ",sumar_lista(numeros))
 #print("El promedio de los numeros es ",promedio_lista(numeros))
 #print("El mayor  de los numeros es ",maximo_lista(numeros))
-#print("El menor de los numeros es ",minimo_lista(numeros))
+print("El menor de los numeros es ",minimo_lista(numeros))
