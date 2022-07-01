@@ -35,8 +35,27 @@ def sumar_lista(lista):
 #Calculo del promedio
    
 
-#Encontrando el maximo  de los numeros  
+#Encontrando el maximo  de los numeros 
 
+def maximo_lista(numeros):
+    # inicialmente el minimo sera el primer de la lista
+    
+    maximo=numeros[0]
+    #seguimos recorriendo la lista a partir del segundo valor
+
+    for i in range(1,len(numeros)):
+        #si el valor de la lista es menor que el minimo ,
+        #asignamos este valor a minimo
+
+        if(numeros[i]>maximo):
+            maximo=numeros[i]
+            
+    return maximo   
+
+    # Mostramos el promedio, la suma, el minimo, el maximo
+    # De los numeros 
+
+ print("El mayor de los nuemeros es", maximo_(numeros)) 
 
 #Encontrando el minimo  de los numeros  
 
