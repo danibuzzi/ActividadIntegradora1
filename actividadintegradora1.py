@@ -38,14 +38,14 @@ def sumar_lista(lista):
 #Encontrando el maximo  de los numeros 
 
 def maximo_lista(numeros):
-    # inicialmente el minimo sera el primer de la lista
+    # inicialmente el maximo sera el primer de la lista
     
     maximo=numeros[0]
     #seguimos recorriendo la lista a partir del segundo valor
 
     for i in range(1,len(numeros)):
-        #si el valor de la lista es menor que el minimo ,
-        #asignamos este valor a minimo
+        #si el valor de la lista es mayor que el maximo ,
+        #asignamos este valor a maximo
 
         if(numeros[i]>maximo):
             maximo=numeros[i]
