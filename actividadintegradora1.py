@@ -52,10 +52,6 @@ def maximo_lista(numeros):
             
     return maximo   
 
-    # Mostramos el promedio, la suma, el minimo, el maximo
-    # De los numeros 
-
- print("El mayor de los nuemeros es", maximo_(numeros)) 
 
 #Encontrando el minimo  de los numeros  
 
@@ -79,5 +75,5 @@ def minimo_lista(numeros):
 
 print("La suma de los numeros es ",sumar_lista(numeros))
 #print("El promedio de los numeros es ",promedio_lista(numeros))
-#print("El mayor  de los numeros es ",maximo_lista(numeros))
+print("El mayor  de los numeros es ",maximo_lista(numeros))
 print("El menor de los numeros es ",minimo_lista(numeros))
