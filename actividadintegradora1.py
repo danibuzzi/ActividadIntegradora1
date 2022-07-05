@@ -33,6 +33,13 @@ def sumar_lista(lista):
 
 
 #Calculo del promedio
+def promedio_lista(numeros):
+    #la suma de los elementos de la lista dividiendo por el numero de elementos.
+    
+    promedio= sumar_lista(numeros)/len(numeros)
+
+    return promedio  
+
    
 
 #Encontrando el maximo  de los numeros 
@@ -74,6 +81,6 @@ def minimo_lista(numeros):
 # de los numeros de la lista
 
 print("La suma de los numeros es ",sumar_lista(numeros))
-#print("El promedio de los numeros es ",promedio_lista(numeros))
+print("el promedio de los numeros es", promedio_lista(numeros))
 print("El mayor  de los numeros es ",maximo_lista(numeros))
 print("El menor de los numeros es ",minimo_lista(numeros))
